@@ -13,8 +13,12 @@ body {
 
 /********* header *********/
 .header {
-    height: 42px;
-    margin: 30px auto;
+    /* height: 42px; */
+    margin-bottom: 30px ;
+}
+
+.nav1 {
+    margin-left: 5%;
 }
 
 .nav1 ul li a {
@@ -25,6 +29,9 @@ body {
     z-index: 1;
 }
 
+.navbar-brand img {
+    width: 80px;
+}
 /********* Locate bar ********/
 .bar .row {
     height: 60px;
@@ -53,25 +60,20 @@ small {
 .caja-recomended {
     height: 20rem;
     background-color: aqua;
-    border: 1px solid black;
-    border-radius: 1rem;
+    /* border: 1px solid black; */
+    border-radius: 10px;
 }
 
 /********* Grammer *********/
-.caja-big {
-    /* height: 400px; */
-    background-color: aqua;
-    border: 1px solid black;
-}
 
-.caja-small{
+.caja-top {
     height: 100px;
     background-color: aqua;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-.caja-article {
+.caja-article div {
     height: 300px;
     background-color: aqua;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
