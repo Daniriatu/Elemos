@@ -12,17 +12,15 @@ body {
 }
 
 /********* header *********/
-.header {
-    /* height: 42px; */
-    margin-bottom: 30px ;
-}
-
 .nav1 {
     margin-left: 5%;
 }
 
 .nav1 ul li a {
-    font-size: 20px;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: red;
 }
 
 .navbar {
@@ -30,14 +28,33 @@ body {
 }
 
 .navbar-brand img {
-    width: 80px;
+    width: 9rem;
 }
+
+/********* Banner *********/
+.banner {
+    position: relative;
+    width: 100%;
+    background-color: #fedac2;
+    margin-bottom: 20px;
+}
+
+/* .search-bar {
+    position: absolute;
+    bottom: 5rem;
+    left: 9rem;
+} */
 /********* Locate bar ********/
+.bar{
+    width: 100%;
+    background-color: #fedac2;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.091);
+}
+
 .bar .row {
     height: 60px;
-    background-color: white;
-    margin-top: 10px;
-    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.091);
+    background-color: #fedac2;
+    margin-top: 20px;
 }
 
 .bar div a {

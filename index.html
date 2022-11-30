@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- header start -->
@@ -15,8 +18,8 @@
         <!-- Navbar -->
         <div class="row mb-3">
             <div class="col px-0">
-                <nav class="navbar navbar-expand-lg navbar-light bg-white shadow py-0">
-                    <a class="navbar-brand ml-4" href="#"><img src="img/ELEMOS.svg" alt=""></a>
+                <nav class="navbar navbar-expand-lg navbar-light bg-white py-0">
+                    <a class="navbar-brand ml-sm-1" href="#"><img src="img/elemos.svg" alt=""></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -24,28 +27,28 @@
                     <div class="collapse navbar-collapse nav1" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#"> 首页 <span class="sr-only">(current)</span></a>
+                          <a href="#"> 首页 <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item ml-lg-5">
-                          <a class="nav-link" href="#"> 语法 </a>
-                        </li>
-
-                        <li class="nav-item ml-lg-5">
-                            <a class="nav-link" href="#"> 词汇 </a>
+                          <a href="#"> 语法 </a>
                         </li>
 
                         <li class="nav-item ml-lg-5">
-                          <a class="nav-link" href="#">文化</a>
+                            <a href="#"> 词汇 </a>
                         </li>
 
                         <li class="nav-item ml-lg-5">
-                            <a class="nav-link" href="#">关于我们</a>
+                          <a href="#">文化</a>
+                        </li>
+
+                        <li class="nav-item ml-lg-5">
+                            <a href="#">关于我们</a>
                         </li>
                       </ul>
 
                       <form class="form-inline my-2 my-lg-0 row">
-                        <button class="btn btn-outline-success col-2 px-1 my-2 my-sm-0 " type="submit"><span class="icon-search"></span></button>
-                        <input class="form-control ml-sm-1 col-9" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-danger col-2 px-1 my-2 my-sm-0 " type="submit"><span class="icon-search"></span></button>
+                        <input class="form-control border-danger ml-sm-1 col-9" type="search" placeholder="Search" aria-label="Search">
                       </form>
                     </div>
                   </nav>
@@ -55,9 +58,22 @@
     <!-- header end -->
 
     <!-- Banner -->
-    <div class="container">
-        <div class="row">
-            <div class="col px-0">
+    <div class="banner">
+        <div class=" container banner">
+            <div class="row">
+                <div class="col px-0">
+                    <img src="img/banner.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Banner end -->
+
+    <!-- pic -->
+    <div class="container d-none d-md-block">
+        <div class="row justify-content-between">
+            <div class="col-6 px-0">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -89,22 +105,27 @@
                     </button>
                 </div>
             </div>
+
+
         </div>
     </div>
-    <!-- Banner end -->
+    <!-- pic end -->
 
     <!-- Locate bar -->
-    <div class="container bar">
-                <div class="row align-items-center">
-                    <div class="col-6 col-sm-6 col-md text-center"> <a  href="#recomended"> 精品推荐 </a> </div>
+    <div class="bar">
+        <div class="container  ">
+            <div class="row align-items-center">
+                <div class="col-6 col-sm-6 col-md text-center"> <a  href="#recomended"> 精品推荐 </a> </div>
 
-                    <div class="col-6 col-sm-6 col-md text-center"> <a href="#grammer"> 语法推荐 </a> </div>
+                <div class="col-6 col-sm-6 col-md text-center"> <a href="#grammer"> 语法推荐 </a> </div>
 
-                    <div class="col-6 col-sm-6 col-md text-center"> <a href="#vocabulary"> 词汇推荐 </a> </div>
+                <div class="col-6 col-sm-6 col-md text-center"> <a href="#vocabulary"> 词汇推荐 </a> </div>
 
-                    <div class="col-6 col-sm-6 col-md text-center"> <a href="#culture"> 文化推荐 </a> </div>
-                </div>              
+                <div class="col-6 col-sm-6 col-md text-center"> <a href="#culture"> 文化推荐 </a> </div>
+            </div>              
+        </div>
     </div>
+    
     <!-- Locate bar end -->
     
     <!-- Recomended -->
