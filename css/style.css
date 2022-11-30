@@ -36,7 +36,7 @@ body {
     position: relative;
     width: 100%;
     background-color: #fedac2;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 /* .search-bar {
@@ -54,7 +54,7 @@ body {
 .bar .row {
     height: 60px;
     background-color: #fedac2;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .bar div a {
@@ -72,7 +72,6 @@ body {
 small {
     float: right;
 }
-
 /********* Recomended *********/
 .caja-recomended {
     height: 20rem;
