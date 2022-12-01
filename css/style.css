@@ -57,11 +57,30 @@ body {
     /* margin-top: 20px; */
 }
 
-.bar div a {
+@media (min-width: 768px) {
+    .bar li{
+        list-style: none;
+    }
+    .bar-border {
+        border-right: 1px solid gray;
+    }
+}
+
+.bar li a {
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    font-size: 20px;
     text-decoration: none;
     color: black;
-    /* text-align: center;
-    padding: 20%; */
+}
+
+.bar li a:hover {
+    color: red;
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
 }
 
 /********* Commen css *********/
@@ -72,11 +91,13 @@ body {
 small {
     float: right;
 }
+
+h4 {
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+}
 /********* Recomended *********/
 .caja-recomended {
-    height: 20rem;
     background-color: aqua;
-    /* border: 1px solid black; */
     border-radius: 10px;
 }
 
