@@ -7,7 +7,6 @@
 body {
     margin: 0;
     padding: 0;
-    /* min-width: 1200px; */
     margin: auto;
 }
 
@@ -39,11 +38,6 @@ body {
     /* margin-bottom: 20px; */
 }
 
-/* .search-bar {
-    position: absolute;
-    bottom: 5rem;
-    left: 9rem;
-} */
 /********* Locate bar ********/
 .bar{
     width: 100%;
@@ -112,5 +106,29 @@ h4 {
 .caja-article div {
     height: 300px;
     background-color: aqua;
-    /* border: 1px solid black; */
+}
+
+/********* Footer *********/
+footer {
+    background-color: #fedac2;
+}
+
+footer h6 {
+    margin: auto;
+    text-align: center;
+}
+
+.copyright {
+    border-top: 1px solid gray ;
+    padding: 10px 0px;
+}
+
+footer ul li a {
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    color: black;
+}
+
+footer ul li a:hover {
+    color: red;
+    text-decoration: none;
 }
