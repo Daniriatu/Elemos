@@ -104,8 +104,8 @@ h4 {
 /********* Grammer *********/
 
 .caja-top {
-    height: 100px;
-    background-color: aqua;
+    background-color: #ffc197;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.091);
     /* border: 1px solid black; */
 }
 
