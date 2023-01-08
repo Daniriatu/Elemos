@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+/********* header *********/
+.nav1 {
+    margin-left: 5%;
+}
+
+.nav1 ul li a {
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: red;
+}
+
+.navbar {
+    z-index: 1;
+}
+
+.navbar-brand img {
+    width: 9rem;
+}
+
+/********* Explanation *********/
+.explain {
+    background-color: #fedac2;
+    border-radius: 10px;
+    border-left: 5px solid orange;
+}
+
+table th, table tr{
+    border: 1px solid black;
+}
+
+/********* Footer *********/
+footer {
+    background-color: #fedac2;
+}
+
+footer h6 {
+    margin: auto;
+    text-align: center;
+}
+
+.copyright {
+    border-top: 1px solid gray ;
+    padding: 10px 0px;
+}
+
+footer ul li a {
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    color: black;
+}
+
+footer ul li a:hover {
+    color: red;
+    text-decoration: none;
+}
